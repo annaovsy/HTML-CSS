@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: rgb(226, 209, 192);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -36,5 +36,14 @@ li.class7::before{
 }
 li.class8::before{
     content: '🍦';
+} */
+ol{
+    list-style-type: none;
+    counter-reset: section;
+
+}
+li::before{
+    counter-increment: section;
+    content:counters(section, ". ")" ";
 }
 
