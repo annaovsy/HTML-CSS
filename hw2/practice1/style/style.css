@@ -1,0 +1,12 @@
+body{
+    margin: 20px;
+    background-color: rgb(219, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    font-weight: bold;
+}
+span{
+    font-weight: normal;
+    color: rgb(92, 92, 241);
+}
