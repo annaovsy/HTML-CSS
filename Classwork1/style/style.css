@@ -1,0 +1,23 @@
+body{
+    margin: 50px;
+    font-size: 20px;
+    background-color: rgb(240, 246, 255);
+}
+ol{
+    list-style-type: none;
+}
+li::before{
+    content: url(../img/arrow_16.png);
+}
+li.winter::before{
+    content: url(../img/winter_16.png);
+}
+li.spring::before{
+    content: url(../img/spring_16.png);
+}
+li.summer::before{
+    content: url(../img/summer_16.png);
+}
+li.atumn::before{
+    content: url(../img/autumn_16.png);
+}
