@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(226, 209, 192);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+ul{
+    margin: 50px;
+    list-style-type: none;
+}
+li.class1::before{
+    content: '🍚';
+}
+li.class2::before{
+    content:'🥯';
+}
+li.class3::before{
+    content: '🥚';
+}
+li.class4::before{
+    content: '🍋';
+}
+li.class5::before{
+    content: '🍋';
+}
+li.class6::before{
+    content: '🥛';
+}
+li.class7::before{
+    content: '🧈';
+}
+li.class8::before{
+    content: '🍦';
+}
+
