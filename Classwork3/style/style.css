@@ -1,0 +1,18 @@
+ol{
+    list-style-type: none;
+    counter-reset: section;
+}
+li::before{
+    counter-increment: section;
+    content:counters(section, ". ")" ";
+}
+.picture{
+    list-style-type: none;
+}
+ul li::before{
+    counter-increment: none;
+    content: normal;
+}
+.img::before{
+    content: '🍋';
+}
