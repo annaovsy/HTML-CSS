@@ -14,5 +14,5 @@ ul li::before{
     content: normal;
 }
 .img::before{
-    content: '🍋';
+    content: '🎄';
 }

@@ -1,0 +1,32 @@
+/* div{
+    background-color: cadetblue;
+    margin: 20px 40px 20px 20px;
+    padding-top: 20px;
+}
+li{
+    margin: 5px 0 5px 0;
+}
+ul{
+    margin-left: 40px;
+} */
+ul{
+    background-color: rgb(108, 139, 185);
+    width: 500px;
+    height: 380px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    list-style-type: none;
+}
+li{
+    background-color: cornflowerblue;
+    margin: 25px 25px 0 25px; 
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+}
+li::before{
+    content: '🎄';
+    background-color: cornsilk;
+}
+
