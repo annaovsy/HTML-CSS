@@ -2,7 +2,67 @@ body{
     padding: 0;
     margin: 0;
 }
-.card{
+img{
+    margin: 50px;
+    width: 500px;
+    height: 300px;
+}
+.img1{
+    border: dashed;
+}
+.img2{
+    box-shadow: 20px 20px 20px 5px rgba(34, 60, 80, 0.2);
+}
+.img3{
+    border-style: double;
+    border-color: rgb(26, 129, 197);
+    border-width: 10px;
+    border-radius: 100px 100px 0 100px;
+}
+.img4{
+    border-top: solid;
+    border-bottom: dotted;
+    border-right: dotted;
+    border-width: 20px;
+    border-color: rgb(26, 129, 197);
+    box-shadow: 0px 49px 20px 5px rgba(0, 0, 0, 0.2);
+}
+div{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+}
+.div1{
+    background: linear-gradient(135deg, #ff154c, #FFDEDE);
+}
+.div2{
+    background: linear-gradient(to right, #ff154c, #ec5276, #e6d6d6);
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(ellipse at center, #ff154c, #f3e8e8);
+    border-radius: 100px;
+}
+/* div{
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    background-color: rgb(81, 71, 228);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+p{
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: -5px 4px 0px #48c2b2, -7px 6px 0px #41b6a6, -9px 8px 0px #3cafa0, -11px 10px 0px #35978a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+/* .card{
     width: 80%;
     height: 50vh;
     margin: auto;
@@ -25,4 +85,4 @@ img{
 }
 .title{
     text-align: center;
-}
+} */
